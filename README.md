@@ -1,4 +1,4 @@
-# 🌡️ Heat Stress Risk Agent
+# Heat Stress Risk Agent
 
 An autonomous AI agent that protects people in Sri Lanka from dangerous heat conditions.
 
@@ -6,16 +6,21 @@ Built for the **KDU BSc Applied Data Science Communication** assignment (LB3114,
 
 ---
 
-## 📌 Features
+##  Features:
+- Real-time weather data for all 25 Sri Lanka districts
+- Scientific heat index calculation (Steadman formula)
+- Risk classification based on WHO & OSHA thresholds
+- Personalised advice by activity type and age
+- Best safe working hours from hourly forecast
+- AI-powered chat agent for heat safety questions
+- Heat stroke first aid guide with emergency numbers
+- Conversation memory across sessions
 
-- **Real-time weather data** via Open-Meteo API (free, no API key required)
-- **Scientifically accurate heat index** using the Steadman formula
-- **Risk classification** based on WHO / OSHA heat stress thresholds
-- **Personalised advice** for farmers, construction workers, athletes, and elderly people
-- **Conversation memory** — saves user profiles across sessions
-- **Interactive Streamlit dashboard** with live metrics and hourly forecast chart
-- **AI-powered chat agent** built with LangChain + OpenAI GPT-4o
-
+## Built With:
+- Python & Streamlit
+- LangChain + Groq Llama3 (AI agent)
+- Open-Meteo API (free real-time weather)
+- Plotly (interactive charts)
 ---
 
 ## 🗂️ Project Structure
@@ -32,13 +37,13 @@ heat-stress-agent/
 ├── memory/
 │   └── profile_store.py      # User profile persistence (JSON)
 ├── requirements.txt
-├── .env                      # API key (do not commit to GitHub)
+├── .env                      # API key 
 └── README.md
 ```
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone the repository
 ```bash
@@ -54,9 +59,9 @@ pip install -r requirements.txt
 ### 3. Add your Anthropic API key
 Edit the `.env` file:
 ```
-OPENAI_API_KEY=your_api_key_here
+GROQ_API_KEY=your_api_key_here
 ```
-Get a free API key at [platform.openai.com](https://platform.openai.com)
+
 
 ### 4. Run the app
 ```bash
@@ -79,9 +84,10 @@ The app opens at `http://localhost:8501`
 
 ---
 
-## 📍 Supported Locations
+## Supported Locations
 
-Kandy, Colombo, Galle, Jaffna, Trincomalee, Anuradhapura, Batticaloa, Negombo
+The agent supports real-time monitoring for all 25 districts of Sri Lanka:
+Ampara, Anuradhapura, Badulla, Batticaloa, Colombo, Galle, Gampaha, Hambantota, Jaffna, Kalutara, Kandy, Kegalle, Kilinochchi, Kurunegala, Mannar, Matale, Matara, Monaragala, Mullaitivu, Nuwara Eliya, Polonnaruwa, Puttalam, Ratnapura, Trincomalee, and Vavuniya.
 
 ---
 
