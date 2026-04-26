@@ -12,7 +12,7 @@ https://youtube.com/shorts/7qQ9nerpK_I?feature=share
 ##  Features:
 - Real-time weather data for all 25 Sri Lanka districts
 - Scientific heat index calculation (Steadman formula)
-- Risk classification based on WHO & OSHA thresholds
+- Risk classification based on WHO thresholds
 - Personalised advice by activity type and age
 - Best safe working hours from hourly forecast
 - AI-powered chat agent for heat safety questions
