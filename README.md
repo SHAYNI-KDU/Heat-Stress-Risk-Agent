@@ -10,7 +10,7 @@ Built for the KDU BSc Applied Data Science Communication assignment (LB3114, Int
 
 - **Real-time weather data** via Open-Meteo API (free, no API key required)
 - **Scientifically accurate heat index** using the Steadman formula
-- **Risk classification** based on WHO / OSHA heat stress thresholds
+- **Risk classification** based on WHO heat stress thresholds
 - **All 25 Sri Lanka districts** supported
 - **Personalised advice** for farmers, construction workers, athletes, and elderly people
 - **Best hours highlighter** — shows safest outdoor working hours based on forecast
@@ -34,12 +34,12 @@ heat-stress-agent/
 │   ├── __init__.py
 │   ├── weather.py            # Open-Meteo API integration
 │   ├── heat_index.py         # Steadman heat index formula
-│   └── risk_classifier.py    # WHO/OSHA risk classification
+│   └── risk_classifier.py    # WHO risk classification
 ├── memory/
 │   ├── __init__.py
 │   └── profile_store.py      # User profile persistence (JSON)
 ├── requirements.txt
-├── .env                      # API key (do not commit to GitHub)
+├── .env                      
 └── README.md
 ```
 
@@ -64,7 +64,7 @@ Get a **free** API key at [console.groq.com](https://console.groq.com)
 streamlit run app.py
 ```
 
-The app opens at `http://localhost:8501`
+
 
 ---
 
@@ -107,16 +107,6 @@ Ampara, Anuradhapura, Badulla, Batticaloa, Colombo, Galle, Gampaha, Hambantota, 
 
 ---
 
-## Emergency Numbers (Sri Lanka)
-
-| Service | Number |
-|---------|--------|
-| Suwa Seriya Ambulance | **1990** |
-| Fire & Rescue | **110** |
-| Police | **119** |
-| Disaster Hotline | **117** |
-
----
 
 ## Disclaimer
 
