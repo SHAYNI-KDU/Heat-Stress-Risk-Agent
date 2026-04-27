@@ -4,6 +4,8 @@ An autonomous AI agent that protects people in Sri Lanka from dangerous heat con
 
 Built for the KDU BSc Applied Data Science Communication assignment (LB3114, Intake 41).
 
+## YT Link :  https://youtube.com/shorts/q2SCJA6JYfk?feature=share
+
 ---
 
 ## Features
